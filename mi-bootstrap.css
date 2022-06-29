@@ -1,0 +1,362 @@
+/* Estilos generales */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/* Generales de la tienda */
+
+.bg {
+    background-color: #e9a9c9;
+}
+.btn {
+    background-color: #a07b8d;
+    color: rgb(8, 7, 7);
+
+}
+
+h1 {
+    text-align: center;
+    font-size: medium;
+    background-color: #eab0cd;
+}
+
+.alert-danger{
+    background-color:#e9a9c9;
+}
+.alert {
+    font-size: 300%;
+    color:#bd3378;
+    text-align: center;
+    background-color: #f4cce0;
+}
+
+.float {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #e9a9c9 ;
+}
+
+.d-flex {
+  
+    align-items: center;
+}
+
+footer {
+    color: aliceblue;
+}
+
+.formulario {
+    display:flexbox;
+    margin:10px;
+    padding: 100px;
+}
+
+.logos {
+   display:flex;
+   align-items:center;
+   justify-content:left;
+   flex-direction:row;
+    padding: 7vh;
+}
+
+.logo-contacto {
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding: 7vh;
+}
+
+/* Main Sobre nosotros*/
+
+
+.hero {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./galeria-de-fotos/rosa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero .h2 {
+    
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero .texto-intro {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+h3 {
+   text-align: center;
+   color: #bd3378;
+   margin: 5%;
+}
+p {
+    text-align: center;
+}
+
+.nosotros {
+    display: flex;
+}
+
+
+.parrafo_dos {
+    display: flex;
+    text-align: center;
+    margin: 5px;
+}
+
+.figure {
+    margin:35px;
+}
+
+.figure-one > div {
+    display: flex;
+    align-items: center ;
+}
+
+.figure-one div .parrafo {
+    margin: 10px;
+}
+
+.figure-two > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.figure-two div .parrafo-dos {
+    margin: 15px;
+}
+
+.figure-one > div > .img {
+    margin: 20px;
+}
+
+/* Main Ubicacion*/
+.parrafo-info {
+    font-size: 240%;
+    color:#f5dee9;
+}
+
+h4  {
+    font-size:45px;
+}
+.alert {
+    font-size: 24px;
+    margin: 50px;
+}
+
+/* Mobile first -- Media Queries*/
+
+@media (max-width: 480px) {
+
+.hero {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./galeria-de-fotos/rosa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero .h2 {
+    
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero .texto-intro {
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: #bd3378;
+    margin: 3vh;
+}
+ p {
+     text-align: center;
+ }
+ .parrafo_dos {
+    display: flex;
+    text-align: center;
+    margin: 5px;
+}
+
+.figure {
+    margin:35px;
+}
+
+.figure-one > div {
+    display: flex;
+    align-items: center ;
+}
+
+.figure-one div .parrafo {
+    margin: 10px;
+}
+
+.figure-two > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.figure-two div .parrafo-dos {
+    margin: 15px;
+}
+
+.figure-one > div > .img {
+    margin: 20px;
+}
+/* index*/
+.anticipo p {
+   
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5dee9;
+    
+}
+.anticipo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.358)), url(./imagenes/otono-invierno.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    align-items: center;
+    justify-content:end;   
+}
+
+.anticipo a {
+    background-color: #a07b8d;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.anticipo a:hover {
+    background-color: aliceblue;
+    color: #a07b8d;
+}
+
+}
+
+/* generales-index*/
+.hero-dos {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./imagenes/ropa-colgada-portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-tres {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./imagenes/ropa-colgada-uno.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-cuatro {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./imagenes/pantalones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Index*/
+.anticipo p {
+   
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5dee9;
+    
+}
+.anticipo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.358)), url(./imagenes/otono-invierno.jpg);
+    width: 90%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;
+    align-items: center;
+    justify-content:end;   
+}
+
+.anticipo a {
+    background-color: #a07b8d;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.anticipo a:hover {
+    background-color: aliceblue;
+    color: #a07b8d;
+}

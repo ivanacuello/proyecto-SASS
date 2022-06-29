@@ -1,0 +1,252 @@
+/* Estilos Generales */
+
+
+/* Import */
+@import "./bootstrap_sass/bootstrap.scss";
+@import "reseteo";
+@import "responsive";
+
+
+/* EXTEND */
+
+
+/* MIXINS */
+
+@mixin cajas ($anchura,$altura ) {
+    width: $anchura;
+    height: $altura;
+    
+}
+
+
+
+
+/* Variables */
+
+$bacRosa: #f0b6d7;
+$bordeColor: #f288c6;
+$ancho: 100% ;
+$alto: 100vh;
+
+
+
+
+
+/* Main Sobre nosotros */
+
+.hero {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./galeria-de-fotos/rosa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .h2 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .texto-intro {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+h3 {
+    text-align: center;
+    color: #bd3378;
+    margin: 5%;
+ }
+ p {
+     text-align: center;
+ }
+ 
+ .nosotros {
+     display: flex;
+ }
+ 
+ 
+ .parrafo_dos {
+     display: flex;
+     text-align: center;
+     margin: 5px;
+ }
+ 
+ .figure {
+     margin:35px;
+ }
+
+ .figure-one {
+     > div {
+        display: flex;
+        align-items: center ;
+        > img {
+            margin: 20px;
+        }
+     }
+     div {
+         .parrafo {
+            margin: 10px;
+         }
+     }
+ }
+
+ .figure-two {
+     > div {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+     }
+     div {
+        .parrafo-dos {
+            margin: 15px;
+        }
+     }
+ }
+
+ /* Main Ubicacion*/
+.parrafo-info {
+    font-size: 240%;
+    color:#f5dee9;
+}
+
+h4  {
+    font-size:45px;
+}
+.alert {
+    font-size: 24px;
+    margin: 50px;
+}
+
+
+/* HEADER */
+
+header {
+    color:rgb(208, 133, 184)
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.carrito {
+    margin: 10px;
+    padding: 10px;
+}
+
+.encabezado {
+    text-align: center;
+    background-color: rgb(226, 192, 226);
+    color: #4a253a;
+    font-size: 15px;      
+}
+
+
+/* Anidamiento */
+.menuHorizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   > li {
+        &:hover {
+            background-color :$bacRosa;
+        }
+        >a {
+            display: block;
+        padding: 10px 15px;
+        color: rgb(6, 4, 6);
+        text-decoration: none;
+        }
+    }   
+}
+
+.menuVertical {
+    position: absolute;
+    color: rgb(143, 37, 37); 
+    display: none;
+    list-style: none;
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(208, 133, 184);
+
+    li {
+         &:hover {
+            color: #090507;
+            background-color: $bacRosa;
+            .menuVertical{
+                display: block;
+
+            }
+        } 
+        
+    }
+
+}
+li {
+    font-size: 18px;
+}
+
+.menuFlexible {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:stretch;
+    /*cursos: pointer;*/ 
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    align-items:center;
+}
+
+.centrar {
+    text-align: center;
+    background-color: #f2d9e7;
+    border:$bordeColor dotted 2px;
+    font-size: 250%;
+    color: #e06baf;
+    padding: 2vh;
+    margin: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+
+/*Tienda */
+
+.menu_tienda {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+.galeria {
+    img {
+        width: 100%;
+        height: 80vh ;
+    }
+}
+
+
