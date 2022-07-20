@@ -188,6 +188,7 @@ h4  {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .hero .h2 {
@@ -214,8 +215,8 @@ h3 {
     margin: 5px;
 }
 
-.figure {
-    margin:35px;
+.figure-one {
+    margin:20px;
 }
 
 .figure-one > div {
@@ -224,6 +225,10 @@ h3 {
 }
 
 .figure-one div .parrafo {
+    margin: 20px;
+}
+
+.figure-two {
     margin: 20px;
 }
 
@@ -242,9 +247,6 @@ h3 {
     margin: 20px;
 }
 
-.nosotros {
-    margin: 10%;
-}
 /* index*/
 .anticipo p {
    
