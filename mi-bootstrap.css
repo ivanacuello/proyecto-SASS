@@ -224,7 +224,7 @@ h3 {
 }
 
 .figure-one div .parrafo {
-    margin: 10px;
+    margin: 20px;
 }
 
 .figure-two > div {
@@ -234,11 +234,16 @@ h3 {
 }
 
 .figure-two div .parrafo-dos {
-    margin: 15px;
+    margin: 30px;
+    
 }
 
 .figure-one > div > .img {
     margin: 20px;
+}
+
+.nosotros {
+    margin: 10%;
 }
 /* index*/
 .anticipo p {
