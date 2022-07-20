@@ -10,7 +10,7 @@
 /* Generales de la tienda */
 
 .bg {
-    background-color: #e9a9c9;
+    background-color: #eed3e0;
 }
 .btn {
     background-color: #a07b8d;
@@ -133,20 +133,24 @@ p {
 .figure-one > div {
     display: flex;
     align-items: center ;
+    font-size: 20px;
 }
 
 .figure-one div .parrafo {
     margin: 10px;
+    font-size: 20;
 }
 
 .figure-two > div {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    margin: 35px;
 }
 
 .figure-two div .parrafo-dos {
     margin: 15px;
+    font-size: 20px;
 }
 
 .figure-one > div > .img {
@@ -275,6 +279,24 @@ h3 {
     color: #a07b8d;
 }
 
+.medios-de-pago {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center  ;
+}
+
+.pagos {
+    text-align:center;
+}
+
+.alerta {
+    font-size: 50%;
+}
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 /* generales-index*/
@@ -359,4 +381,23 @@ h3 {
 .anticipo a:hover {
     background-color: aliceblue;
     color: #a07b8d;
+}
+
+.medios-de-pago {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center  ;
+}
+
+.pagos {
+    text-align:justify;
+}
+.alert {
+    font-size: 250%;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
