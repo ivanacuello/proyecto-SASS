@@ -173,7 +173,7 @@ h4  {
 
 /* Mobile first -- Media Queries*/
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
 
 .hero {
     color: #f5dee9;

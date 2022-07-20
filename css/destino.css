@@ -10230,7 +10230,7 @@ textarea.form-control-lg {
   }
 }
 /*·· Tablet ··*/
-@media (min-width: 481px) and (max-width: 1023px) {
+@media (min-width: 421px) and (max-width: 1023px) {
   body {
     background-color: rgb(216, 87, 216);
   }
